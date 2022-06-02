@@ -15,6 +15,9 @@
         line-height: 2.67;
         margin-bottom: 13px;
     }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 36px;
+    }
 }
 
 .skills-list {
@@ -23,6 +26,10 @@
         flex-wrap: wrap;
         margin-left: -30px;
         margin-top: -34px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-left: -10px;
+        position: relative;
     }
 }
 
@@ -45,17 +52,40 @@
             margin-bottom: 0;
         }
     }
+    @media screen and (min-width: 768px) {
+        margin-left: 10px;
+    }
 
     &--speaking {
+        @media screen and (min-width: 768px) {
+                width: 224px;
+                height: 662px;
+        }
 
     }
     &--writing {
-
+        @media screen and (min-width: 768px) {
+            width: 227px;
+            height: 441px;
+        }
     }
     &--reading {
+        @media screen and (min-width: 768px) {
+                width: 228px;
+                height: 442px;
+            }
 
     }
     &--listening {
+        @media screen and (min-width: 768px) {
+                width: 462px;
+                height: 210px;
+                display: flex;
+                flex-direction: row-reverse;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
 
     }
 }
@@ -76,6 +106,12 @@
             margin-left: 10px;
             margin-bottom: 0;
         }
+        @media screen and (min-width: 768px) {
+            width: 214px;
+            height: 214px;
+            margin-left: 1px;
+            margin-top: 31px;
+        }
     }
     
     &--writing {
@@ -89,6 +125,13 @@
             height: 182px;
             margin-top: 5px;
             margin-left: 23px;
+        }
+        @media screen and (min-width: 768px) {
+            width: 200px;
+            height: 200px;
+            margin-left: 3px;
+            margin-top: 14px;
+            margin-bottom: 0;
         }
     }
     
@@ -104,6 +147,13 @@
             margin-top: 30px;
             margin-left: 2px;
         }
+        @media screen and (min-width: 768px) {
+            width: 216px;
+            height: 144px;
+            margin-left: 2px;
+            margin-top: 34px;
+            margin-bottom: 0;
+        }
     }
     
     &--listening {
@@ -118,6 +168,12 @@
             margin-top: 38px;
             margin-left: 12px;
         }
+        @media screen and (min-width: 768px) {
+            width: 202px;
+            height: 134px;
+            margin-top: 39px;
+            margin-left: 0;
+        }
     }
 }
 
@@ -128,6 +184,10 @@
     color: $main-color;
     text-align: left;
     margin-left: 13px;
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 4;
+    }
 }
 
 .skills-list__text {
@@ -142,6 +202,12 @@
     @media screen and (min-width: 575px) {
         margin-bottom: 0;
         font-size: 12;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 13px;
+        margin: 0;
+        margin-left: 13px;
+        margin-right: 10px;
     }
 }
 
@@ -163,6 +229,10 @@
         position: absolute;
         margin-bottom: 0;
         bottom: 10px;
+    }
+    @media screen and (min-width: 768px) {
+        position: static;
+        padding: 13px 43px;
     }
     &--large {}
     
