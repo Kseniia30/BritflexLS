@@ -1,0 +1,81 @@
+.about-us {}
+
+.about-us__container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-us__text-section {}
+
+.about-us__top-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.33;
+    color: $top-text-color;
+
+    @media screen and (min-width: 575px) {
+        font-size: 30px;
+        line-height: 2.67;
+        margin-bottom: 23px;
+    }
+}
+
+.about-us__img {
+    width: 283px;
+    height: 283px;
+
+    @media screen and (min-width: 575px) {
+        width: 352px;
+        height: 352px;
+    }
+}
+
+.about-us__text {
+    font-weight: 400;
+    font-size: 13px;
+    color: $second-main-color;
+    margin-top: 23px;
+    margin-bottom: 7px;
+    @media screen and (min-width: 575px) {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+}
+
+.numbers {
+    @media screen and (min-width: 575px) {
+        display: flex;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+
+.numbers__item {
+    &:not(:last-child) {
+        margin-bottom: 29px;
+    }
+    @media screen and (min-width: 575px) {
+        &:not(:last-child) {
+            margin-bottom: 0;
+            margin-right: 103px;
+        }
+    }
+}
+
+.numbers__figure {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.33;
+    color: $figure-color;
+}
+
+.numbers-value {
+    font-weight: 400;
+    font-size: 15px;
+    color: $second-main-color;
+    @media screen and (min-width: 575px) {
+        font-size: 14px;
+    }
+}
+

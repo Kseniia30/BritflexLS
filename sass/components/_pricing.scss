@@ -1,0 +1,149 @@
+.pricing {
+    padding-top: 84px;
+    text-align: center;
+    @media screen and (min-width: 575px) {
+        padding-top: 130px;
+    }
+}
+.pricing__top-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.33;
+    color: $top-text-color;
+    margin-bottom: 29px;
+    @media screen and (min-width: 575px) {
+            font-size: 30px;
+            line-height: 2.67;
+            margin-bottom: 54px;
+        }
+}
+.prices {}
+
+.prices__item {}
+
+.prices__img {
+    &--online {
+        width: 248px;
+        height: 248px;
+        margin-bottom: 28px;
+
+        @media screen and (min-width: 575px) {
+            width: 291px;
+            height: 291px;
+            margin-bottom: 23px;
+        }
+        
+    }
+    &--lesson {
+        width: 257px;
+        height: 197px;
+        margin-bottom: 12px;
+
+        @media screen and (min-width: 575px) {
+            width: 314px;
+            height: 241px;
+            margin-bottom: 21px;
+        }
+    }
+    &--webinar {
+        width: 241px;
+        height: 241px;
+        margin-bottom: 7px;
+
+        @media screen and (min-width: 575px) {
+            width: 253px;
+            height: 253px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.prices__top-text {
+    font-weight: 600;
+    font-size: 18px;
+    color: $main-color;
+
+    @media screen and (min-width: 575px) {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+    &--online {
+        margin-bottom: 17px;
+
+        @media screen and (min-width: 575px) {
+            margin-bottom: 23px;
+        }
+    }
+
+    &--lesson {
+        margin-bottom: 25px;
+
+        @media screen and (min-width: 575px) {
+            margin-bottom: 19px;
+        }
+    }
+
+    &--webinar {
+        margin-bottom: 30px;
+
+        @media screen and (min-width: 575px) {
+            margin-bottom: 21px;
+        }
+    }
+}
+
+.prices__text {
+    font-weight: 400;
+    font-size: 13px;
+    color: $second-main-color;
+    &--online {
+        margin-bottom: 33px;
+    }
+    
+    &--lesson {
+        margin-bottom: 31px;
+    }
+    
+    &--webinar {
+        margin-bottom: 38px;
+    }
+    @media screen and (min-width: 575px) {
+        margin-bottom: 31px;
+        font-size: 14px;
+    }
+}
+
+.cost__btn {
+    border-radius: 5px;
+    background-color: $bg-color-one;
+    display: flex;
+    border: none;
+    padding: 5px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    @media screen and (min-width: 575px) {
+        padding: 5px 12px;
+    }
+}
+
+.cost__figure {
+    font-weight: 400;
+    font-size: 18px;
+    color: $main-color;
+
+    @media screen and (min-width: 575px) {
+        font-size: 24px;
+    }
+}
+
+.cost__value {
+    font-weight: 400;
+    font-size: 14px;
+    color: $third-color;
+    margin-left: 5px;
+
+    @media screen and (min-width: 575px) {
+        font-size: 16px;
+    }
+}

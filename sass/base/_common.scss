@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: $line-height;
+}
+.container {
+    min-width: 299px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: 320px) {
+        width: 320px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    @media screen and (min-width: 575px) {
+        width: 575px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    @media screen and (min-width: 992px) {
+        width: 992px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    @media screen and (min-width: 1400px) {
+        width: 1400px;
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+}
+a, button {
+    cursor: pointer;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+    line-height: $line-height;
+} 

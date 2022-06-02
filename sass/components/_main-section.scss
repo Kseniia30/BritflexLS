@@ -1,0 +1,105 @@
+.main {
+    padding-top: 0;
+    text-align: center;
+}
+
+.main__container {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+}
+.main__text-section {
+
+}
+
+.main__top-text {
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 575px) {
+        font-size: 34px;
+        margin-bottom: 26px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+        line-height: 1.25;
+        width: 217px;
+        &::after {
+            content: ' ';
+            position: absolute;
+            bottom: 1px;
+            left: 217px;
+            background-image: url('../img/bulb-icon.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 85px;
+            height: 85px;
+        }
+    }
+}
+
+.main__top-icon {
+}
+
+.main__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: $second-main-color;
+    margin-bottom: 33px;
+
+    @media screen and (min-width: 575px) {
+        font-size: 16px;
+        margin-bottom: 37px;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 32px;
+    }
+}
+
+.main__btn {
+    display: block;
+    color: $btn-light-color;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: $btn-bg-color;
+    border-radius: 10px;
+    padding: 18px 99px;
+    margin-bottom: 53px;
+
+    @media screen and (min-width: 575px) {
+        padding: 24px 101px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 96px;
+    }
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        padding: 19px 67px;
+        font-size: 18px;
+    }
+}
+
+.main__img {
+    width: 299px;
+    height: 299px;
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 575px) {
+        width: 491px;
+        height: 672px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 352px;
+        height: 352px;
+        margin-bottom: 0;
+    }
+}
